@@ -62,4 +62,5 @@ Version
 
 
 KB-IDE Version
+=====
 1.0.0  ใช้ความสามารถของ TridentTD_LineNotify 3.0.1 แก้ไขไฟล์ library.json เพื่อให้รองรับกับ KB-IDE เพิ่ม blocks สำหรับเขียนโปรแกรมแบบ blocks และ fix เช็ควงเล็บ ( Sonthaya Boonchan )
