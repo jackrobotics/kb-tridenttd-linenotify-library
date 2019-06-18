@@ -32,9 +32,9 @@ Blockly.Blocks['line_sticker'] = {
         this.appendDummyInput()
             .appendField("Line Sticker")
             .appendField("PackageId: ")
-            .appendField(new Blockly.FieldTextInput("40"), "packageId")
+            .appendField(new Blockly.FieldTextInput("3"), "packageId")
             .appendField("StickerId: ")
-            .appendField(new Blockly.FieldTextInput("2"), "stickerId");
+            .appendField(new Blockly.FieldTextInput("240"), "stickerId");
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
@@ -51,7 +51,7 @@ Blockly.Blocks['line_sticker_msg'] = {
                 .appendField("Message: ");
         this.appendDummyInput()
             .appendField("PackageId: ")
-            .appendField(new Blockly.FieldTextInput("40"), "packageId")
+            .appendField(new Blockly.FieldTextInput("1"), "packageId")
             .appendField("StickerId: ")
             .appendField(new Blockly.FieldTextInput("2"), "stickerId");
         this.setInputsInline(true);
